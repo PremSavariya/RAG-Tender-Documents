@@ -1,0 +1,256 @@
+{
+  "timestamp": "2025-11-02T18:45:15.531832",
+  "categories": {
+    "retrieval": {
+      "exact_keyword": {
+        "queries": [
+          {
+            "query": "IT-Projekte",
+            "num_results": 5,
+            "retrieval_time": 15.59156608581543,
+            "top_score": 9.94995682674631,
+            "relevance_score": 0.3333333333333333,
+            "found_terms": [
+              "IT"
+            ]
+          },
+          {
+            "query": "Bauprojekte",
+            "num_results": 5,
+            "retrieval_time": 8.366541147232056,
+            "top_score": 0.66409415,
+            "relevance_score": 0.3333333333333333,
+            "found_terms": [
+              "Bau"
+            ]
+          },
+          {
+            "query": "Lieferung",
+            "num_results": 5,
+            "retrieval_time": 7.784046411514282,
+            "top_score": 7.424052302422137,
+            "relevance_score": 0.3333333333333333,
+            "found_terms": [
+              "Liefer"
+            ]
+          }
+        ],
+        "avg_relevance": 0.3333333333333333,
+        "avg_time": 10.58071788152059,
+        "avg_top_score": 6.012701093056148
+      },
+      "semantic": {
+        "queries": [
+          {
+            "query": "Software development projects",
+            "num_results": 5,
+            "retrieval_time": 8.113855600357056,
+            "top_score": 7.435793216059095,
+            "relevance_score": 0.6666666666666666,
+            "found_terms": [
+              "software",
+              "IT"
+            ]
+          },
+          {
+            "query": "Construction tenders in Germany",
+            "num_results": 5,
+            "retrieval_time": 6.982253313064575,
+            "top_score": 8.344379443253228,
+            "relevance_score": 0.0,
+            "found_terms": []
+          },
+          {
+            "query": "Medical equipment supply",
+            "num_results": 5,
+            "retrieval_time": 6.538193225860596,
+            "top_score": 7.019552931426883,
+            "relevance_score": 0.0,
+            "found_terms": []
+          }
+        ],
+        "avg_relevance": 0.2222222222222222,
+        "avg_time": 7.211434046427409,
+        "avg_top_score": 7.5999085302464024
+      },
+      "id_lookup": {
+        "queries": [
+          {
+            "query": "DTAD-ID 20046891",
+            "num_results": 5,
+            "retrieval_time": 7.919753074645996,
+            "top_score": 8.586571114726327,
+            "relevance_score": 0.0,
+            "found_terms": []
+          },
+          {
+            "query": "Tender 20047108",
+            "num_results": 5,
+            "retrieval_time": 9.577733993530273,
+            "top_score": 0.699963,
+            "relevance_score": 0.0,
+            "found_terms": []
+          },
+          {
+            "query": "Vergabe 20046893",
+            "num_results": 5,
+            "retrieval_time": 7.883106708526611,
+            "top_score": 6.698176572217865,
+            "relevance_score": 0.0,
+            "found_terms": []
+          }
+        ],
+        "avg_relevance": 0.0,
+        "avg_time": 8.460197925567627,
+        "avg_top_score": 5.328236895648064
+      },
+      "complex_qa": {
+        "queries": [
+          {
+            "query": "Was sind die Anforderungen für IT-Projekte?",
+            "num_results": 5,
+            "retrieval_time": 7.694839000701904,
+            "top_score": 11.09645975668614,
+            "relevance_score": 1.0,
+            "found_terms": [
+              "Anforderung",
+              "IT"
+            ]
+          },
+          {
+            "query": "Welche Fristen gelten für Ausschreibungen?",
+            "num_results": 5,
+            "retrieval_time": 5.638051748275757,
+            "top_score": 9.425471044356675,
+            "relevance_score": 0.5,
+            "found_terms": [
+              "Frist"
+            ]
+          },
+          {
+            "query": "Wie läuft ein Vergabeverfahren ab?",
+            "num_results": 5,
+            "retrieval_time": 5.517412900924683,
+            "top_score": 10.644266769637033,
+            "relevance_score": 0.5,
+            "found_terms": [
+              "Vergabe"
+            ]
+          }
+        ],
+        "avg_relevance": 0.6666666666666666,
+        "avg_time": 6.283434549967448,
+        "avg_top_score": 10.38873252355995
+      }
+    },
+    "generation": {
+      "queries": [
+        {
+          "query": "Was sind die Anforderungen für IT-Projekte?",
+          "answer": "Die Anforderungen für IT-Projekte können variieren, aber im Allgemeinen umfassen sie:\n\n1. Sicherheit und Datensicherheit\n2. Verfügbarkeit und Leistungsfähigkeit der IT-Systeme\n3. Flexibilität und Skalierbarkeit des Systems\n4. Effizienz und Konsistenz von Datenverarbeitung\n5. Compliance mit Datenschutzrichtlinien\n6. Integration in现有的IT-Infrastruktur\n7. Support und Maintenance für die gesamten Projektphase\n\nEs ist wichtig, diese Anforderungen im Rahmen eines spezifischen IT-Projekts zu berücksichtigen und entsprechend vorzugehen.",
+          "generation_time": 21.96009135246277,
+          "word_count": 63,
+          "term_coverage": 1.0,
+          "adequate_length": true,
+          "admits_uncertainty": false
+        },
+        {
+          "query": "Welche Fristen gelten für Ausschreibungen?",
+          "answer": "Die Fristen für Ausschreibungen sind als folgt bestimmt:\n\n1. Handelsgesetzbuch (HGB): 2 bis 10 Jahre nach Abschluss der Beschaffung.\n2. Abgabenordnung (AO): 10 Jahre nach Ablauf des Förderprogramms.\n3. § 147 Abs. 1 Nr. 1 AO: 10 Jahre nach Abschluss der Beschaffung.\n4. § 257 Abs. 1 HGB: 10 Jahre nach Abschluss der Beschaffung.\n5. Gesetzliche Verjährungsfristen in der BGB: bis zu 30 Jahren, regelmäßige Verjährungsfrist drei Jahre.\n\nDiese Fristen gelten für die Erfüllung von Aufbewahrungs- und Berichtigungsverpflichtungen sowie für den Erhaltungsbereich.",
+          "generation_time": 15.539294719696045,
+          "word_count": 82,
+          "term_coverage": 0.5,
+          "adequate_length": true,
+          "admits_uncertainty": false
+        },
+        {
+          "query": "Wie läuft ein Vergabeverfahren ab?",
+          "answer": "Ein Vergabeverfahren folgt dem Vorgeschrittenen in diesem Kontext:\n\n1. **Eröffnungstermin**: 05.04.2023\n\n2. **Aufforderung zur Abgabe eines Angebots**: 05.04.2023\n\n3. **Anlagen zu beachten**:\n   - Teilnahmebedingungen (Ausgabe 2019)\n   - Verzeichnis der im Vergabeverfahren vorzulegenden Unterlagen\n   - Zuschlagskriterien\n   - Leistungsbeschreibung, Pläne, sonstige Anlagen\n\n4. **Anlagen zu zurückgeben**:\n   - Angebotsschreiben als PDF-Datei\n   - Leistungsverzeichnis inklusive Preisblätter als PDF-Datei\n   - Eigenerklärung zur Eignung (nicht präqualifiziert)\n   - GAEB-Datei im gängigen Format d84 od. x84 (ggfls. auf CD) mit Um Rückgabe der GAEB-Datei gebeten\n\n5. **Urkalkulation**: Vorzulegen ab einem Nettoauftr",
+          "generation_time": 16.425957918167114,
+          "word_count": 83,
+          "term_coverage": 0.5,
+          "adequate_length": true,
+          "admits_uncertainty": true
+        }
+      ],
+      "avg_generation_time": 17.975114663441975,
+      "avg_term_coverage": 0.6666666666666666,
+      "pct_adequate_length": 1.0
+    },
+    "performance": {
+      "retrieval": {
+        "avg": 10.799911260604858,
+        "min": 7.648987293243408,
+        "max": 21.594730138778687,
+        "throughput_qps": 0.09259335339612727
+      },
+      "generation": {
+        "avg": 24.455807745456696,
+        "samples": 4
+      }
+    },
+    "robustness": {
+      "tests": [
+        {
+          "description": "Empty query",
+          "query": "",
+          "status": "success",
+          "num_results": 3,
+          "time": 5.267462968826294
+        },
+        {
+          "description": "Single character",
+          "query": "x",
+          "status": "success",
+          "num_results": 3,
+          "time": 5.930394887924194
+        },
+        {
+          "description": "Very short tokens",
+          "query": "a b c d e f",
+          "status": "success",
+          "num_results": 3,
+          "time": 6.039713382720947
+        },
+        {
+          "description": "Very long single token",
+          "query": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
+          "status": "success",
+          "num_results": 3,
+          "time": 7.446364164352417
+        },
+        {
+          "description": "Only emojis",
+          "query": "🎯 🚀 ✅",
+          "status": "success",
+          "num_results": 3,
+          "time": 5.434437990188599
+        },
+        {
+          "description": "Only numbers (possible ID)",
+          "query": "12345678",
+          "status": "success",
+          "num_results": 3,
+          "time": 0.2669413089752197
+        },
+        {
+          "description": "SQL injection attempt",
+          "query": "SELECT * FROM users",
+          "status": "success",
+          "num_results": 3,
+          "time": 6.523921251296997
+        }
+      ],
+      "success_rate": 1.0,
+      "total_tests": 7
+    }
+  },
+  "summary": {
+    "overall_retrieval_quality": 0.3055555555555555,
+    "overall_generation_quality": 0.6666666666666666,
+    "overall_robustness": 1.0,
+    "avg_retrieval_time": 10.799911260604858,
+    "avg_generation_time": 24.455807745456696,
+    "throughput_qps": 0.09259335339612727
+  }
+}
